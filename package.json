@@ -1,7 +1,7 @@
 {
   "name": "cordova-plugin-swipe-smooth",
   "displayName": "smoothSwipe",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The Swipe plugin for Cordova provides a convenient way to add swipe refresh functionality to your Cordova applications. This plugin allows users to refresh the content of the application by performing a swipe gesture.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

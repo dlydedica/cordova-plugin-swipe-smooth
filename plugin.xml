@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin id="cordova-plugin-swipe-smooth" version="1.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+<plugin id="cordova-plugin-swipe-smooth" version="1.0.2" xmlns="http://apache.org/cordova/ns/plugins/1.0">
     <engines>
         <engine name="cordova" version=">=8.0.0"/>
     </engines>
@@ -10,6 +10,8 @@
     <license>MIT</license>
     <keywords>cordova,swipe,xml,loading</keywords>
     <author>Buyung setiawan purnomo</author>
+
+    <dependency id="cordova-plugin-toast-smooth" version="*" />
 
     <js-module src="www/smooth.js" name="Swipe">
         <clobbers target="cordova.plugin.swipe.smooth" />
